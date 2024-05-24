@@ -39,9 +39,6 @@ VEND_FUNCTIONS:
 	IN CASE THE QUANTITY OF A PARTICULAR ITEM EQUALS TO ZERO THEN IT IS REMOVED FROM THE LIST AND THE FILE.
 	IF USER ASKS FOR QUANTITY MORE THAN THE AVAILABLE QUANTITY THEN THE AVAILABLE QUANTITY IS GIVEN TO THE USER.
 	"""
-CONTRIBUTION:
-	SANIYA ISMAIL KONDKAR	IMT2022128
-	VARSHA YAMSANI		IMT2022506
 
 
 
@@ -83,10 +80,6 @@ if owner service is selected then:
 if the password is correct then the owner has the option to refill the items in the vending machine.
 
 
-CONTRIBUTION:
-	VENIGALLA SOWMYA IMT2022537
-	TRUPTI KHODWE    IMT2022007
-
 
 
 1.OWNER :
@@ -108,10 +101,7 @@ PAYMENT :
 	 If the user pays same amount as the total payable amount then it returns 1.
 	 If the user pays more than the total payable amount , excess money is calculated and stored in 'wallet' and it returns 1.
 	 If the user pays less than the total payable amount , it goes into a loop which doesnt stop until it becomes equal or more than the total payable amount.
-	
-CONTRIBUTION:
-	NUPUR PATIL       IMT2022520
-	CHANDRIMA NANDI   IMT2022062
+
 
 
 1.MAKEFILE:
@@ -124,6 +114,3 @@ This is the makefile of the entire C project which includes all the files used i
 	c_payment.c
 This enables the 'make' command to compile the different program pieces and builds a final executable file 'cproj' in this case.
 
-CONTRIBUTION:
-	CHANDRIMA NANDI   IMT2022062
-	TRUPTI KHODWE     IMT2022007
